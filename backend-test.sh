@@ -1,0 +1,1 @@
+curl -d '{"userLocation": {"longitude" : "0", "latitude" : "0"}, "userReligion" : "0", "userDisease": "0", "userAllergy": "0", "userVegan": "false"}' -H "Content-Type: application/json" -X POST https://happytanuki.kr/api/GetMenusByName -k

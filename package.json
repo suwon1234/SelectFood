@@ -1,0 +1,31 @@
+{
+  "name": "react-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && cp index.html /var/www/html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-plugin-source-map-support": "^2.2.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "http-proxy-middleware": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vinyl-buffer": "^1.0.1"
+  }
+}
